@@ -30,6 +30,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 } else {
     // Se o script for acessado por método diferente de POST, impede a execução
-    echo "Acesso inválido.";
+ echo 'Acesso invalido';
 }
 ?>
